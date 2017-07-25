@@ -1,0 +1,29 @@
+<script>
+    $(document).ready(function() {
+
+        if ( window.location.href == "https://stewart-dulaney.squarespace.com/home" ) {
+
+                $(window).on("scroll", function() {
+                    var fromTop = $("body").scrollTop();
+                    $('#logoImage').toggleClass("animate-logo", (fromTop > 60));
+                    $('#header').toggleClass("animate-header", (fromTop > 60));
+                });
+
+                $(document).scroll(function () {
+                    var y = $(this).scrollTop();
+                    if (y > 60) {
+                        $('#headerNav').fadeIn();
+                    } else {
+                        $('#headerNav').fadeOut();
+                    }
+
+                });
+        }
+
+
+
+
+    });
+
+
+</script>

@@ -1,0 +1,94 @@
+<style>
+    .banner-thumbnail-wrapper {
+        height: 100vh;
+    }
+    /*#headerNav {display: none !important;}*/
+    /*div.showOnScrollWrapper header {
+
+        visibility: visible !important;
+    }
+    div#siteWrapper header {
+
+        visibility: hidden !important;
+    }*/
+
+    div#siteWrapper #header {
+        /*background-color: #000000 !important;*/
+
+        height: 60px !important;
+        position: fixed !important;
+        /*visibility: hidden !important;*/
+    }
+    div.header-inner {
+        height: 38px !important;
+        padding-top: 8.5px !important;
+        padding-bottom: 8.5px !important;
+    }
+    #headerNav {
+        /*visibility: hidden !important;*/
+		/*opacity: 0.0 !important;*/
+		/*opacity: 0;*/
+		/*visibility: hidden;*/
+    }
+    div#logoWrapper #logoImage {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /*width: 70%;*/
+        /*width: 100vw;
+	height: 100vh;*/
+        /*display: block !important;*/
+        /*width:162.5px;*/
+    }
+    .animate-logo {
+        /*display: none;*/
+
+        transition: .4s ease-in-out !important;
+        z-index: 6000 !important;
+        position: absolute !important;
+        position: fixed !important;
+        top: 30px !important;
+        left: 100px !important;
+        width: 125px !important;
+		content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01-03.svg')!important;
+    }
+    .animate-header {
+        background-color: #000000 !important;
+    }
+    .color-overlay {
+        background-color: rgba(32, 26, 22, 0.5) !important;
+    }
+    #logoImage {
+        content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01.svg');
+    }
+    .image-block {
+        /*width: 100vw;
+		position: relative;
+		left: -305px;*/
+        /*changed depending on padding*/
+        /*padding-left: 0 !important;
+		padding-right: 0 !important;*/
+    }
+    @media only screen and (max-width: 48em) {
+        /*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+        div#logoWrapper #logoImage {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            /*width: 70%;*/
+            /*width: 100vw;
+			height: 100vh;*/
+            /*display: block !important;*/
+
+            width: 35vw !important;
+        }
+
+        #headerNav {
+            display: none !important;
+        }
+    }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
