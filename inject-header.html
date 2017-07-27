@@ -1,4 +1,91 @@
 <style>
+
+
+    /*Home page logo animation*/
+    .animate-logo {
+        transition: .4s ease-in-out !important;
+        z-index: 6000 !important;
+        position: absolute !important;
+        position: fixed !important;
+        top: 8.5px !important;
+        left: 25px !important;
+        width: 125px !important;
+        content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01-03.svg')!important;
+        /*max-width: 125px !important;*/
+    }
+
+    /*Set home page banner to full height*/
+    .banner-thumbnail-wrapper {
+        height: 100vh;
+    }
+
+    div#siteWrapper #header {
+        /*background-color: #000000 !important;*/
+
+        height: 60px !important;
+        position: fixed;
+        /*visibility: hidden !important;*/
+    }
+    div.header-inner {
+        height: 38px !important;
+        padding-top: 8.5px !important;
+        padding-bottom: 8.5px !important;
+    }
+    #headerNav {
+        /*visibility: hidden !important;*/
+        /*opacity: 0.0 !important;*/
+        /*opacity: 0;*/
+        /*visibility: hidden;*/
+    }
+    div#logoWrapper #logoImage {
+        position: fixed;
+        left: calc(50% - 82.5px);
+        top: calc(50% - 92.85px);
+        /*transform: translate(-50%, -50%);*/
+
+
+        /*width: 70%;*/
+        /*width: 100vw;
+    height: 100vh;*/
+        /*display: block !important;*/
+        /*width:162.5px;*/
+    }
+    .animate-header {
+        background-color: #000000 !important;
+    }
+    .color-overlay {
+        background-color: rgba(32, 26, 22, 0.5) !important;
+    }
+    #logoImage {
+        content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01.svg');
+    }
+    .image-block {
+        /*width: 100vw;
+        position: relative;
+        left: -305px;*/
+        /*changed depending on padding*/
+        /*padding-left: 0 !important;
+        padding-right: 0 !important;*/
+    }
+    /*Swap footer logo*/
+    .image-block-wrapper {
+        content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01-03.svg')!important;
+        width: 175px !important;
+    }
+    /*#footer, .footer-inner {
+        height: 100px !important;
+    }*/
+
+    /* Hide post author and date */
+    .meta-below-title {
+        display: none !important;
+    }
+
+
+
+
+
+
     /* ----------- iPhone 6 ----------- */
     /* Portrait and Landscape */
     @media only screen
@@ -15,15 +102,14 @@
     and (orientation: portrait) {
         div#logoWrapper #logoImage {
             position: fixed;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+            left: calc(50% - 67.5px);
+            top: calc(50% - 76px);
+            /*transform: translate(-50%, -50%);*/
             /*width: 70%;*/
             /*width: 100vw;
             height: 100vh;*/
             /*display: block !important;*/
-
-            width: 35vw;
+            width: 135px;
         }
         #headerNav {
             display: none !important;
@@ -45,7 +131,7 @@
               height: 100vh;*/
               /*display: block !important;*/
 
-              width: 25vw;
+              width: 135px;
           }
 
           #headerNav {
@@ -59,78 +145,7 @@
 
     }
 
-    /*Home page logo animation*/
-    .animate-logo {
-        transition: .4s ease-in-out !important;
-        z-index: 6000 !important;
-        position: absolute !important;
-        position: fixed !important;
-        top: 30px !important;
-        left: 100px !important;
-        width: 125px !important;
-        content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01-03.svg')!important;
-        /*max-width: 125px !important;*/
-    }
 
-    /*Set home page banner to full height*/
-    .banner-thumbnail-wrapper {
-        height: 100vh;
-    }
-
-    div#siteWrapper #header {
-        /*background-color: #000000 !important;*/
-
-        height: 60px !important;
-        position: fixed !important;
-        /*visibility: hidden !important;*/
-    }
-    div.header-inner {
-        height: 38px !important;
-        padding-top: 8.5px !important;
-        padding-bottom: 8.5px !important;
-    }
-    #headerNav {
-        /*visibility: hidden !important;*/
-		/*opacity: 0.0 !important;*/
-		/*opacity: 0;*/
-		/*visibility: hidden;*/
-    }
-    div#logoWrapper #logoImage {
-        position: fixed;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        /*width: 70%;*/
-        /*width: 100vw;
-	height: 100vh;*/
-        /*display: block !important;*/
-        /*width:162.5px;*/
-    }
-    .animate-header {
-        background-color: #000000 !important;
-    }
-    .color-overlay {
-        background-color: rgba(32, 26, 22, 0.5) !important;
-    }
-    #logoImage {
-        content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01.svg');
-    }
-    .image-block {
-        /*width: 100vw;
-		position: relative;
-		left: -305px;*/
-        /*changed depending on padding*/
-        /*padding-left: 0 !important;
-		padding-right: 0 !important;*/
-    }
-    /*Swap footer logo*/
-    .image-block-wrapper {
-        content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01-03.svg')!important;
-        width: 175px !important;
-    }
-    /*#footer, .footer-inner {
-        height: 100px !important;
-    }*/
 
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
