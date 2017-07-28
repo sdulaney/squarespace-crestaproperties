@@ -3,7 +3,6 @@
     #logoImage {
         content: url('https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01-03.svg');
         z-index: 6000 !important;
-        position: absolute !important;
         position: fixed !important;
         top: 8.5px !important;
         left: 25px !important;
@@ -22,8 +21,18 @@
         display:inline;
     }
 
-    .banner-thumbnail-wrapper {
-        height: 15vh;
+    /*.banner-thumbnail-wrapper {
+        height: 50vh !important;
+    }*/
+
+    /*Adjust height of banner on Hayden by changing the top/bottom padding values.*/
+    .transparent-header.view-list .banner-thumbnail-wrapper, .transparent-header.collection-type-page .banner-thumbnail-wrapper {
+        padding-top: 142.5px; /*Default is 180px*/
+        padding-bottom: 112.5px; /*Default is 155px*/
+    }
+    /*Center banner text vertically*/
+    .desc-wrapper p {
+        /*margin: 46px;*/
     }
 
     div#siteWrapper #header {
