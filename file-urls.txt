@@ -13,3 +13,7 @@ Working https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlin
 
  No text https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01-01.svg
  Horizontal https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlines-01-03.svg
+
+ https://stewart-dulaney.squarespace.com/s/jqueryfancyboxmin.css
+
+ https://stewart-dulaney.squarespace.com/s/jqueryfancyboxmin.js
