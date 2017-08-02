@@ -17,3 +17,5 @@ Working https://stewart-dulaney.squarespace.com/s/Cresta-Logo-Solid-White-Outlin
  https://stewart-dulaney.squarespace.com/s/jqueryfancyboxmin.css
 
  https://stewart-dulaney.squarespace.com/s/jqueryfancyboxmin.js
+
+ https://crestaproperties.squarespace.com/s/Cresta-Logo-Solid-White-Horizontal-01-lc9x.svg
