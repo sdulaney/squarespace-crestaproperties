@@ -5,12 +5,14 @@
 
                 $(window).on("scroll", function() {
                     var fromTop = $("body").scrollTop();
-                    $('#logoImage').toggleClass("animate-logo", (fromTop > 60));
-                    $('#header').toggleClass("animate-header", (fromTop > 60));
+                    console.log("fromTop: " + fromTop);
+                    $('#siteWrapper #logoImage').toggleClass("animate-logo", (fromTop > 60));
+                    $('#siteWrapper > #header').toggleClass("animate-header", (fromTop > 60));
                 });
 
                 $(document).scroll(function () {
                     var y = $(this).scrollTop();
+                    console.log("y: " + y);
                     if (y > 60) {
                         $('#headerNav').fadeIn();
                     } else {
